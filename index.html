@@ -49,8 +49,6 @@
         </div>
         <div class="col-6">
                 <ul>
-                    <li>Precipitation: <span id="precipitation"></span>%
-                    </li>
                     <li>
                         Humidity:<span id="humidity"></span>% 
                     </li>
@@ -60,67 +58,62 @@
                 </ul>
             </div>
         </div>
-        <div class="row weather-forecast">
-                    <div class="col-2">
-                        <h3>
-                            Mon
-                        </h3>
-                        <img src="http://openweathermap.org/img/wn/03n@2x.png">
-                        <div class="weather-forecast-temperature">
-                            <strong>-2°</strong> -3°
-                        </div>
-                </div>
-                    <div class="col-2">
-                        <h3>
-                            Tue
-                        </h3>
-                        <img src="http://openweathermap.org/img/wn/03n@2x.png">
-                        <div class="weather-forecast-temperature">
-                            <strong>-2°</strong> -3°
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <h3>
-                            Weds
-                        </h3>
-                        <img src="http://openweathermap.org/img/wn/03n@2x.png"/>
-                        <div class="weather-forecast-temperature">
-                            <strong>-2°</strong> -3°
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <h3>
-                            Thurs
-                        </h3>
-                        <img src="http://openweathermap.org/img/wn/03n@2x.png"/>
-                        <div class="weather-forecast-temperature">
-                            <strong>-2°</strong> -3°
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <h3>
-                            Fri
-                        </h3>
-                        <img src="http://openweathermap.org/img/wn/03n@2x.png"/>
-                        <div class="weather-forecast-temperature">
-                            <strong>-2°</strong> -3°
-                        </div>
-                     </div>
-                    <div class="col-2">
-                        <h3>
-                            Fri
-                        </h3>
-                        <img src="http://openweathermap.org/img/wn/03n@2x.png"/>
-                        <div class="weather-forecast-temperature">
-                            <strong>-2°</strong> -3°
-                        </div>
-                    </div>  
-                </div>
+        <div class="row weather-forecast" id=forecast></div>
             </div>
-        <small>
-            <a href="https://github.com/marie-comstock/Vanilla-Weather-Project" target="_blank">Open-source code</a> by Marie Comstock
-         </small>
-    </div>
+        </div>
+        <div class="extended-forecast">
+            <div class="row five-forecast" id="forecast-slides">
+                <div class="col-2">
+                    <div class="card" style="width: 7rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 1</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Predicted:</h6>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width: 7rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 2</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Predicted:</h6>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 7rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 3</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Predicted:</h6>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 7rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 4</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Predicted:</h6>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 7rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Day 5</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Predicted:</h6>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+            <small>
+                <a href="https://github.com/marie-comstock/Vanilla-Weather-Project" target="_blank">Open-source code</a> by Marie Comstock
+             </small>
+        </div>
+        
     </div>
     <script src="src/app.js"></script>
 </body>
